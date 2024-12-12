@@ -1,0 +1,85 @@
+
+    <div class="age-container">
+        <div class="age-header">
+            Age Calculator
+        </div>
+        <div class="age-input">
+            <label>
+                Select your Birth Date:
+            </label>
+            <input type="date" class="age-dob-input">
+        </div>
+
+        <div class="age-button">
+            <button class="calculate-btn">
+                Calculate Age
+            </button>
+        </div>
+
+        <div class="age-result">
+            Your age is: 
+        </div>
+    </div>
+
+
+    <style>
+    *{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.age-container {
+    background-color: rgb(112, 158, 232);
+    border-radius: 10px;
+    padding: 30px;
+    width: 500px;
+    height: 250px;
+    text-align: center;
+    border: 1px solid;
+}
+
+.age-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 10px;
+}
+
+label {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.age-dob-input {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+.calculate-btn {
+    font-size: 1.2rem;
+    width: 200px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    margin-bottom: 10px;
+}
+    </style>
+    <script
+        src="age-calculator.js"
+    >
+    </script>
+
